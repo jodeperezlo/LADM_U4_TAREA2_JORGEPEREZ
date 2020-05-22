@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnVerLlamadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER HISTORIAL DE LLAMADAS"
+        android:textColor="#686464"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="#A6E161"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <Button
+        android:id="@+id/btnVerMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER MENSAJES ENVIADOS"
+        android:textColor="#686464"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="#A6E161"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BORRAR TODO"
+        android:textColor="#686464"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="#A6E161"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO HA CONSULTADO NADA"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
